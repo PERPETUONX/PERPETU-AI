@@ -1,0 +1,17 @@
+perpetu-ai/
+├── smart-contracts/      # Solana Program Collection
+│   ├── Cargo.toml
+│   ├── programs/
+│   │   ├── core-engine/  # Main economic logic
+│   │   ├── nft-protocol/ # Existential NFT logic
+│   │   └── mev-capture/  # MEV redistribution system
+├── ai-engine/            # On-chain AI Training
+│   ├── lstm-model/       # Federated learning implementation
+│   └── zk-proofs/        # Zero-knowledge verifiers
+├── frontend/             # Next.js Web Interface
+│   ├── components/       # Interactive modules
+│   └── utils/            # Wallet/Data connectors
+├── scripts/              # Deployment & Utility
+│   ├── deploy-all.sh
+│   └── test-routines/
+└── docs/                 # Technical Specifications
